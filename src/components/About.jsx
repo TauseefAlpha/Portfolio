@@ -16,7 +16,7 @@ const About = () => {
     return (
 
         <div className='px-4 w-full h-screen  bg-gradient-to-b from-slate-600 via bg-green-700 to-slate-900  pb-6' name="About">
-            <div className='max-w-screen-lg mx-auto flex  flex-col justify-center h-full'>
+            <div className='max-w-screen-lg mx-auto flex  flex-col justify-center h-full pt-5 '>
                 <div className='pb-8'>
                     <h1 className='text-slate-300 text-4xl  font-bold inline border-b-4 border-gray-300'> About</h1>
                 </div>
