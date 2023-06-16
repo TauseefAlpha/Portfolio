@@ -15,10 +15,10 @@ const data = [
 const About = () => {
     return (
 
-        <div className='px-4 w-full h-screen  bg-gradient-to-b from-slate-600 via bg-green-700 to-slate-900  pb-6' name="About">
-            <div className='max-w-screen-lg mx-auto flex  flex-col justify-center h-full pt-5 '>
-                <div className='pb-8'>
-                    <h1 className='text-slate-300 text-4xl  font-bold inline border-b-4 border-gray-300'> About</h1>
+        <div className='pt-12 px-4 w-full h-screen  bg-gradient-to-b from-slate-600 via bg-green-700 to-slate-900  pb-6' name="About">
+            <div className='max-w-screen-lg mx-auto flex  flex-col justify-center h-full  '>
+                <div className='pb-8  pt-8'>
+                    <h1 className='text-slate-300 text-4xl   font-bold inline border-b-4 border-gray-300'> About</h1>
                 </div>
                 <p className="text-xl text-slate-300 mt-6"> i have completed bootcamp as mernstack developer  and also completed 2 month internship with BitSol Technologies, If i talk about my experties, I Can Build interactive consumer data from multiple systems and RESTfully abstract to the UI through a Node.js backend</p> <br />
                 <ul className='text-xl  text-slate-300'>

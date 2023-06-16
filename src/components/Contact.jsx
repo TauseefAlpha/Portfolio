@@ -9,7 +9,7 @@ const Contact = () => {
                     <p className="text-2xl text-slate-200  mt-3">Submit the form below to contact with me</p>
                 </div>
 
-                <div className='border-slate-600 shadow-lg shadow-slate-400 border-4 p-5 flex justify-center items-center '>
+                <div className='border-slate-600   md:shadow-lg shadow-slate-400 md: border-4 p-5 flex justify-center items-center '>
 
                     <form action="https://getform.io/f/982b0458-6143-4b75-b019-15ca6e5ef079" method='POST' className='flex flex-col  h-full md:w-1/2'>
 
