@@ -14,7 +14,6 @@ import github from "../assets/github.png"
 import nodejs from "../assets/node.png"
 
 
-
 const data = [
     {
         id: 1,
