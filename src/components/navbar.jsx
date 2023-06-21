@@ -37,7 +37,7 @@ const Navbar = () => {
 
                 <ul className='space-x-8 pt-1 hidden md:flex'>
                     {listitem.map(({ id, name }) => (
-                        <li key={id} className='text-lg cursor-pointer text-gray-500 capitalize'><Link to={name} smooth={true} duration={500}>{name}</Link></li>
+                        <li key={id} className='text-lg cursor-pointer text-gray-500 capitalize  '><Link to={name} smooth={true} duration={500} className=" hover:bg-slate-600">{name}</Link></li>
                     ))}
                 </ul>
 
@@ -50,7 +50,7 @@ const Navbar = () => {
 
             {nav && <ul className='flex  bg-slate-950 flex-col text-center py-8 md:hidden '>
                 {listitem.map(({ id, name }) => (
-                    <li key={id} className='text-3xl  py-2 text-gray-500 capitalize cursor-pointer ' onClick={() => setNav(false)} ><Link to={name} smooth={true} duration={500}>{name}</Link></li>
+                    <li key={id} className='text-3xl  py-2 text-gray-500 capitalize cursor-pointer' onClick={() => setNav(false)} ><Link to={name} smooth={true} duration={500}>{name}</Link></li>
                 ))}
             </ul>}
         </>
