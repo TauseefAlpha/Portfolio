@@ -2,9 +2,8 @@ import React from 'react'
 import TA from "../assets/portfolio/TA.png"
 import netflix from "../assets/portfolio/netflix.png"
 import clock from "../assets/portfolio/clock.png"
-import laptop from "../assets/portfolio/laptop.png"
 import cartmanagement from "../assets/portfolio/cartmanagement.png"
-
+import odersummary from "../assets/portfolio/odersummary.png"
 import resturant from "../assets/portfolio/resturant2.png"
 
 const data = [
@@ -41,9 +40,9 @@ const data = [
     },
     {
         id: 6,
-        image: resturant,
-        demo: "https://restruantweb.vercel.app",
-        code: 'https://github.com/TauseefAlpha/restruantweb'
+        image: odersummary,
+        demo: "https://github.com/TauseefAlpha/eshoppingwatchstore",
+        code: 'https://github.com/TauseefAlpha/eshoppingwatchstore'
     },
 
 ]
