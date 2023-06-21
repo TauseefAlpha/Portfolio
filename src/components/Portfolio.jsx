@@ -5,6 +5,8 @@ import clock from "../assets/portfolio/clock.png"
 import laptop from "../assets/portfolio/laptop.png"
 import cartmanagement from "../assets/portfolio/cartmanagement.png"
 
+import resturant from "../assets/portfolio/resturant2.png"
+
 const data = [
     {
         id: 1,
@@ -33,23 +35,17 @@ const data = [
     },
     {
         id: 5,
-        image: netflix,
-        demo: "https://netflix-psi-seven.vercel.app/",
-        code: 'https://github.com/TauseefAlpha/netflixApp'
+        image: resturant,
+        demo: "https://restruantweb.vercel.app/",
+        code: 'https://github.com/TauseefAlpha/restruantweb'
     },
     {
         id: 6,
-        image: netflix,
-        demo: "https://netflix-psi-seven.vercel.app/",
-        code: 'https://github.com/TauseefAlpha/netflixApp'
+        image: resturant,
+        demo: "https://restruantweb.vercel.app",
+        code: 'https://github.com/TauseefAlpha/restruantweb'
+    },
 
-    },
-    {
-        id: 7,
-        image: laptop,
-        demo: "https://netflix-psi-seven.vercel.app/",
-        code: 'https://github.com/TauseefAlpha/netflixApp'
-    },
 ]
 
 
@@ -69,7 +65,7 @@ const Portfolio = () => {
                 <div className='grid sm:grid-cols-2 md:grid-cols-3  flex-col gap-6 px-12 sm:px-0'>
                     {data?.map(({ id, image, demo, code }) => (
                         <div key={id} className='shadow-md shadow-slate-900 rounded-lg duration-300 hover:scale-105'>
-                            <img src={image} alt="netflix" className='rounded-lg ' />
+                            <img src={image} alt="netflix" className='rounded-lg' />
                             <div className='flex justify-around py-4'>
                                 <button className='px-3 py3 mx-2 text-lg text-yellow-100 items-center hover:scale-125  duration-300'><a href={code} target='blank'>Code</a></button>
                                 <button className=' px-3 py3 mx-2 items-center  text-yellow-100 hover:scale-125  duration-300' > <a href={demo} target='blank'>Demo</a></button>
