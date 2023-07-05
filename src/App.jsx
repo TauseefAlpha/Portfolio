@@ -5,22 +5,24 @@ import Home from './components/Home'
 import Portfolio from './components/Portfolio'
 import Sociallink from './components/Sociallink'
 import Navbar from './components/navbar'
+import "./App.css"
 
 
 function App() {
 
 
   return (
-    <>
+ 
+      <div className='wrapper'>
       <Navbar />
-      <Home />  
+      <Home />
       <About />
       <Portfolio />
       <Experience />
       <Contact />
-      
-      <Sociallink />
-    </>
+
+        <Sociallink />
+      </div>
   )
 }
 

@@ -9,7 +9,7 @@ const data = [
     { id: 1, name: "Linkdin", icon: <FaLinkedin size={30} />, href: "https://www.linkedin.com/in/tauseef-ahmad-a2107523b/" },
     { id: 2, name: "Github", icon: <FiGithub size={30} />, href: "https://github.com/TauseefAlpha" },
     { id: 3, name: "Mail", icon: <MdOutlineMailLock size={30} />, href: "mailto:name@email.com" },
-    { id: 4, name: "Profile Cv", icon: <BsFillFilePersonFill size={30} />, href: "./tauseefAhmad cv.pdf", download: true }
+    { id: 4, name: "Profile Cv", icon: <BsFillFilePersonFill size={30} />, href: "./mernstack cv.pdf", download: true }
 ]
 
 
