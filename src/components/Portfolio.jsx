@@ -1,45 +1,55 @@
 import React from 'react'
 import TA from "../assets/portfolio/TA.png"
 import netflix from "../assets/portfolio/netflix.png"
+import Gamedev from "../assets/portfolio/gamedev.png"
 import clock from "../assets/portfolio/clock.png"
 import cartmanagement from "../assets/portfolio/cartmanagement.png"
 import odersummary from "../assets/portfolio/odersummary.png"
 import resturant from "../assets/portfolio/resturant2.png"
 
 const data = [
+
+
     {
         id: 1,
         image: netflix,
         demo: "https://netflix-psi-seven.vercel.app/",
         code: 'https://github.com/TauseefAlpha/netflixApp'
     },
-
     {
         id: 2,
+        image: Gamedev,
+        demo: "https://gamedev-tau.vercel.app/",
+        code: 'https://github.com/TauseefAlpha/Gamedev'
+    },
+    {
+        id: 3,
+        image: TA,
+        demo: "https://ta-moviexweb.vercel.app",
+        code: 'https://github.com/TauseefAlpha/TA-moviexweb'
+    },
+
+    {
+        id: 4,
         image: cartmanagement,
         demo: "https://store-cartmanagement.vercel.app/",
         code: 'https://github.com/TauseefAlpha/store-cartmanagement'
     },
     {
-        id: 3,
+        id: 5,
         image: clock,
         demo: "https://clock-dial.netlify.app/",
         code: 'https://github.com/TauseefAlpha/clock'
     },
+
     {
-        id: 4,
-        image: TA,
-        demo: "https://ta-moviexweb.vercel.app",
-        code: 'https://github.com/TauseefAlpha/TA-moviexweb'
-    },
-    {
-        id: 5,
+        id: 6,
         image: resturant,
         demo: "https://restruantweb.vercel.app/",
         code: 'https://github.com/TauseefAlpha/restruantweb'
     },
     {
-        id: 6,
+        id: 7,
         image: odersummary,
         demo: "https://github.com/TauseefAlpha/eshoppingwatchstore",
         code: 'https://github.com/TauseefAlpha/eshoppingwatchstore'
@@ -58,7 +68,7 @@ const Portfolio = () => {
             <div className='max-w-screen-lg mx-auto flex  flex-col justify-center h-full'>
                 <div className='pb-8 pt-8'>
                     <p className='text-slate-300 text-4xl font-bold inline border-b-4 border-gray-300'> PortFolio</p>
-                    <p className='text-slate-300 text-2xl  font-bold  py-4'> check out my work right here</p>
+                    <p className='text-slate-300 text-2xl  font-bold  py-4'> check out my some project right here demo</p>
                 </div>
 
                 <div className='grid sm:grid-cols-2 md:grid-cols-3  flex-col gap-6 px-12 sm:px-0'>
